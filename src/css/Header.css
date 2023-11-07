@@ -1,0 +1,53 @@
+.nav-dark {
+    background-color: var(--bg-color-dark);
+    color: var(--color-dark);
+}
+
+.nav-light {
+    background-color: var(--bg-color-light);
+    color: var(--color-light);
+    box-shadow: inset 0px 0px 15px -10px rgba(0, 0, 0, 0.466);
+}
+
+.myNav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px 10px 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand > h1{
+    display: inline-block;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.8em;
+    text-shadow: #21222A 1px 1px 3px;
+    color: #61DAFB;
+}
+
+.myNav > .navbar-subtitle {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #DEEBF8;
+}
+
+.navbarListItem {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navImage {
+    height: 50px;
+}
+
+.nav-subcontent {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+}

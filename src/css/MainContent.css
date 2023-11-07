@@ -1,0 +1,37 @@
+main {
+    padding: 50px 0px 0px 50px;
+    position: relative;
+    background: no-repeat url("../img/reactjs-icon-2.png") 100% 10%/200px;
+    align-self: stretch;
+}
+
+.main-content-light {
+    background-color: var(--bg-color-light);
+    color: var(--color-light);
+}
+
+.main-content-dark {
+    background-color: var(--bg-color-dark);
+    color: var(--color-dark);
+}
+
+main > h1 {
+    font-size: 3em;
+    padding-bottom: 50px;
+}
+
+main > ul {
+    font-size: 1.5em;
+    list-style: none;
+}
+
+main > ul > li {
+    padding: 10px 0px 10px 0px;
+}
+
+main > ul > li::marker {
+    content: "\2022  ";
+    color: #61DAFB;
+    font-size: 1.3em;
+    margin-right: 5px;
+}

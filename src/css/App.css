@@ -1,0 +1,24 @@
+:root {
+  /*Dark Theme*/
+  --bg-color-dark: #21222A;
+  --color-dark: #DEEBF8;
+
+  /*Light Theme*/
+  --bg-color-light: #DEEBF8;
+  --color-light: #21222A;
+}
+
+* {
+  margin: 0px;
+  font-family: "Inter";
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
